@@ -1,0 +1,135 @@
+/*-----------------------------TAG--------------------------------*/
+nav {
+  position: relative;
+}
+
+body {
+  background-image: url('../assets/home/background-home-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  margin: 0;
+}
+
+a {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Bellefair', serif;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 171.9px;
+  margin: auto;
+}
+
+h2 {
+  font-family: 'Bellefair', serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: .6px;
+}
+
+p {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+/*-----------------------------CLASS top container--------------------------------*/
+.logo {
+  position: absolute;
+  left: 5%;
+  height: 100px;
+  width: 100px;
+}
+
+.line {
+  border-color: rgba(240, 240, 240, 0.2);
+  border-style: solid none none none;
+  position: absolute;
+  width: 52.5%;
+  color: white;
+  top: 20px;
+  left: 17%;
+}
+
+.top-container {
+  height: 96px;
+  padding: 50px;
+}
+
+.menu {
+  background-color: rgba(240, 240, 240, 0.1);
+  box-shadow: 3px 3px black;
+  position: absolute;
+  left: 67.5%;
+  bottom: -67.5px;
+  margin: 0;
+  padding: 30px;
+}
+
+.nav-items {
+  display: inline-block;
+  font-size: 1px;
+  font-size: 15px;
+  padding-left: 30px;
+}
+
+.menu-text {
+  color: inherit;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menu-text1 {
+  margin-right: 40px;
+}
+
+.menu-text:hover {
+  border: 2px white;
+  border-style: none none solid;
+  padding-bottom: 30px;
+}
+
+/*-----------------------------CLASS middle container--------------------------------*/
+.middle-container {
+  position: relative;
+  margin-top: 7.5%;
+  margin-left: 25%;
+}
+
+.explore {
+  font-size: 50px;
+  position: absolute;
+  padding: 26%;
+}
+
+.right-part {
+  border-radius: 100%;
+  background-color: white;
+  color: #0B0D17;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 55%;
+}
+
+.left-part {
+  position: absolute;
+  right: 77.5%;
+}
+
+.explore-hp {
+  position: absolute;
+}
+
+/*-----------------------------ID--------------------------------*/
